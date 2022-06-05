@@ -2,13 +2,10 @@
 
 ### You should Replace **...** to the real data
 
-home_dir='/home/**user**/Desktop/**folder_created_on_desktop**/'
-swagger_api='http://**swagger_api**:**swagger_port**/'
-slack_api='**slack_webhook_url**'
-
-
-########################## APIs ##########################
-apis=("**swagger_page1**" "**swagger_page2**" "**swagger_page3**")
+home_dir="$1"
+swagger_api="$2"
+apis="$3"
+slack_api="$4"
 
 
 ########################## Compine Files in Lists ##########################
