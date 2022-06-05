@@ -8,5 +8,13 @@ sudo apt-get install jq
 ```
 
 ## Run the script
+```
+autoDetection.sh 'directory' 'swagger_api' 'slack_api'
+```
+1. directory: is a directory to contain the downloaded swagger pages
+2. swagger_api: is http://ip:port/ that hosts the swagger api
+3. slack_api: the webhook url used to send the slack message
+
+## Example on running the script
 
 ## Automate the script
