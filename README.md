@@ -33,3 +33,13 @@ The command should be
 ./autoDetection.sh '/home/user/Desktop/swagger/' 'http://127.0.0.1:7070/' ('page-1-api' 'page-2-api' 'page-3-api' 'page-4-api') https://hooks.slack.com/services/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
 ``` 
 ## Automate the script
+Use crontab to run the script periodically every minute.
+1. Run the following command to open crontab editor
+```
+crontab -e
+```
+2. Add the following line to the end of file
+```
+* * * * * path-to-the-script
+```
+path-to-the-script: is the script path
