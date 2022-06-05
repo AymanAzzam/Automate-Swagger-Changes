@@ -1,6 +1,12 @@
 # Automate-Swagger-Changes
-This project to send message on slack channel when their is a change happens in the swagger api
+A bash script to send message to slack channel when their is a change happens in the swagger api
 
 ## Prerequisites
+1. Install jq command
+```
+sudo apt-get install jq
+```
 
-## RUN
+## Run the script
+
+## Automate the script
