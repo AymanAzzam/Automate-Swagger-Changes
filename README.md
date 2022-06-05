@@ -20,10 +20,10 @@ sudo apt-get install jq
 Let's say empty directory is /home/user/Desktop/swagger/ 
 
 The swagger apis are:
-http://127.0.0.1:7070/page-1-api/swagger-ui/
-http://127.0.0.1:7070/page-2-api/swagger-ui/
-http://127.0.0.1:7070/page-3-api/swagger-ui/
-http://127.0.0.1:7070/page-4-api/swagger-ui/
+1. http://127.0.0.1:7070/page-1-api/swagger-ui/
+2. http://127.0.0.1:7070/page-2-api/swagger-ui/
+3. http://127.0.0.1:7070/page-3-api/swagger-ui/
+4. http://127.0.0.1:7070/page-4-api/swagger-ui/
 
 The slack api is
 https://hooks.slack.com/services/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
